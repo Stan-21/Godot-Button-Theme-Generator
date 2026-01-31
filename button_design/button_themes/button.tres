@@ -1,0 +1,17 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://cd051i28dvrbw"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_suawj"]
+bg_color = Color(18.892157, 18.892157, 18.892157, 0)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.7440874, 0.80987984, 0.86846805, 1)
+border_blend = true
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+
+[resource]
+Button/styles/normal = SubResource("StyleBoxFlat_suawj")

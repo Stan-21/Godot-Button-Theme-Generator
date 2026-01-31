@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://cqpwwtc65f5ft"]
+
+[ext_resource type="Theme" uid="uid://sr5v1cfufri1" path="res://button_design/button_themes/gradient.tres" id="1_eq5gl"]
+
+[node name="Button" type="PanelContainer"]
+clip_children = 1
+offset_right = 77.0
+offset_bottom = 23.0
+scale = Vector2(4, 4)
+theme = ExtResource("1_eq5gl")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 2
+theme = ExtResource("1_eq5gl")
+text = "THIS IS A BUTTON"

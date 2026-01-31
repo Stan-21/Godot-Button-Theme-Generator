@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://donknfl55wx0y"]
+
+[ext_resource type="Theme" uid="uid://c881pnh8kvcdb" path="res://button_design/button_themes/button17.tres" id="1_4ts8g"]
+
+[node name="Button" type="Button"]
+offset_right = 8.0
+offset_bottom = 8.0
+theme = ExtResource("1_4ts8g")
+text = "THIS IS A BUTTON"

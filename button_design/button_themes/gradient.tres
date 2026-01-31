@@ -1,0 +1,44 @@
+[gd_resource type="Theme" load_steps=9 format=3 uid="uid://sr5v1cfufri1"]
+
+[sub_resource type="Gradient" id="Gradient_jj0jq"]
+colors = PackedColorArray(0, 0, 0, 1, 0.21960784, 0.36862746, 1, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_228hf"]
+gradient = SubResource("Gradient_jj0jq")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_efllw"]
+texture = SubResource("GradientTexture1D_228hf")
+texture_margin_left = 5.0
+texture_margin_top = 5.0
+texture_margin_right = 5.0
+texture_margin_bottom = 5.0
+region_rect = Rect2(0, 0, 256, 1)
+
+[sub_resource type="Gradient" id="Gradient_5q1bf"]
+interpolation_mode = 2
+colors = PackedColorArray(0.21960784, 0.36862746, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_jj0jq"]
+gradient = SubResource("Gradient_5q1bf")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_228hf"]
+texture = SubResource("GradientTexture1D_jj0jq")
+texture_margin_left = 5.0
+texture_margin_top = 5.0
+texture_margin_right = 5.0
+texture_margin_bottom = 5.0
+region_rect = Rect2(0, 0, 256, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5q1bf"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_228hf"]
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[resource]
+Button/styles/hover = SubResource("StyleBoxTexture_efllw")
+Button/styles/normal = SubResource("StyleBoxTexture_228hf")
+Button/styles/pressed = SubResource("StyleBoxFlat_5q1bf")
+PanelContainer/styles/panel = SubResource("StyleBoxFlat_228hf")
