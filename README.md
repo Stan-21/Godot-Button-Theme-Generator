@@ -4,6 +4,7 @@
 - This tool generates button themes for Godot.
 
 # How to run the tool
+- IMPORTANT: IF THERE IS NO themes folder, create one
 - To run the tool, play main.tscn and click on the button that says "This Button Changes Those Buttons!"
 - Mess around with the sliders and toggles to influence the generation towards different types of buttons.
 - If you find a button that you like, click on it.  That will change the themes of the buttons on the right.
