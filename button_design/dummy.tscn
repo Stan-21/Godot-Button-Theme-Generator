@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://b8v0it2alr4bg"]
-
-[ext_resource type="Theme" path="res://themes/themes.theme" id="1_fv285"]
-
-[node name="Button" type="Button"]
-offset_right = 8.0
-offset_bottom = 8.0
-theme = ExtResource("1_fv285")
-text = "THIS IS A BUTTON"

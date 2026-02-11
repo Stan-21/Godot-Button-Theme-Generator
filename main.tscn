@@ -1,11 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://8w5x38poef4q"]
+[gd_scene format=3 uid="uid://8w5x38poef4q"]
 
 [ext_resource type="Script" uid="uid://d0buwfy4iolx1" path="res://main.gd" id="1_ig7tw"]
 
-[node name="Main" type="Node2D"]
+[node name="Main" type="Node2D" unique_id=1903998389]
 script = ExtResource("1_ig7tw")
 
-[node name="Samples" type="GridContainer" parent="."]
+[node name="Samples" type="GridContainer" parent="." unique_id=1442809840]
 offset_left = 50.0
 offset_top = 25.0
 offset_right = 664.0
@@ -14,168 +14,213 @@ theme_override_constants/h_separation = 30
 theme_override_constants/v_separation = 30
 columns = 4
 
-[node name="Button" type="Button" parent="Samples"]
+[node name="Button" type="Button" parent="Samples" unique_id=209583751]
 layout_mode = 2
 text = "This is a button!"
 
-[node name="Button2" type="Button" parent="Samples"]
+[node name="Button2" type="Button" parent="Samples" unique_id=646153299]
 layout_mode = 2
 text = "This is a button!"
 
-[node name="Button3" type="Button" parent="Samples"]
+[node name="Button3" type="Button" parent="Samples" unique_id=1924633422]
 layout_mode = 2
 text = "This is a button!"
 
-[node name="Button4" type="Button" parent="Samples"]
+[node name="Button4" type="Button" parent="Samples" unique_id=378228888]
 layout_mode = 2
 text = "This is a button!"
 
-[node name="Button5" type="Button" parent="Samples"]
+[node name="Button5" type="Button" parent="Samples" unique_id=302774854]
 layout_mode = 2
 text = "This is a button!"
 
-[node name="Button6" type="Button" parent="Samples"]
+[node name="Button6" type="Button" parent="Samples" unique_id=269904356]
 layout_mode = 2
 text = "This is a button!"
 
-[node name="Button7" type="Button" parent="Samples"]
+[node name="Button7" type="Button" parent="Samples" unique_id=155003108]
 layout_mode = 2
 text = "This is a button!"
 
-[node name="Button8" type="Button" parent="Samples"]
+[node name="Button8" type="Button" parent="Samples" unique_id=781434858]
 layout_mode = 2
 text = "This is a button!"
 
-[node name="Button9" type="Button" parent="Samples"]
+[node name="Button9" type="Button" parent="Samples" unique_id=462111405]
 layout_mode = 2
 text = "This is a button!"
 
-[node name="Button10" type="Button" parent="Samples"]
+[node name="Button10" type="Button" parent="Samples" unique_id=574844032]
 layout_mode = 2
 text = "This is a button!"
 
-[node name="Button11" type="Button" parent="Samples"]
+[node name="Button11" type="Button" parent="Samples" unique_id=1938908726]
 layout_mode = 2
 text = "This is a button!"
 
-[node name="Button12" type="Button" parent="Samples"]
+[node name="Button12" type="Button" parent="Samples" unique_id=1576448179]
 layout_mode = 2
 text = "This is a button!"
 
-[node name="Button13" type="Button" parent="Samples"]
+[node name="Button13" type="Button" parent="Samples" unique_id=991977562]
 layout_mode = 2
 text = "This is a button!"
 
-[node name="Button14" type="Button" parent="Samples"]
+[node name="Button14" type="Button" parent="Samples" unique_id=885773716]
 layout_mode = 2
 text = "This is a button!"
 
-[node name="Button15" type="Button" parent="Samples"]
+[node name="Button15" type="Button" parent="Samples" unique_id=954606011]
 layout_mode = 2
 text = "This is a button!"
 
-[node name="Button16" type="Button" parent="Samples"]
+[node name="Button16" type="Button" parent="Samples" unique_id=2043005260]
 layout_mode = 2
 text = "This is a button!"
 
-[node name="Button17" type="Button" parent="Samples"]
+[node name="Button17" type="Button" parent="Samples" unique_id=2069851856]
 layout_mode = 2
 text = "This is a button!"
 
-[node name="Button18" type="Button" parent="Samples"]
+[node name="Button18" type="Button" parent="Samples" unique_id=2120198180]
 layout_mode = 2
 text = "This is a button!"
 
-[node name="Button19" type="Button" parent="Samples"]
+[node name="Button19" type="Button" parent="Samples" unique_id=806544996]
 layout_mode = 2
 text = "This is a button!"
 
-[node name="Button20" type="Button" parent="Samples"]
+[node name="Button20" type="Button" parent="Samples" unique_id=712709967]
 layout_mode = 2
 text = "This is a button!"
 
-[node name="Button21" type="Button" parent="Samples"]
+[node name="Button21" type="Button" parent="Samples" unique_id=803666077]
 layout_mode = 2
 text = "This is a button!"
 
-[node name="Button22" type="Button" parent="Samples"]
+[node name="Button22" type="Button" parent="Samples" unique_id=531570388]
 layout_mode = 2
 text = "This is a button!"
 
-[node name="Button23" type="Button" parent="Samples"]
+[node name="Button23" type="Button" parent="Samples" unique_id=786010572]
 layout_mode = 2
 text = "This is a button!"
 
-[node name="Button24" type="Button" parent="Samples"]
+[node name="Button24" type="Button" parent="Samples" unique_id=2034381048]
 layout_mode = 2
 text = "This is a button!"
 
-[node name="CanvasLayer" type="CanvasLayer" parent="."]
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1951708252]
+offset = Vector2(-20, 20)
+transform = Transform2D(1, 0, 0, 1, -20, 20)
 
-[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer" unique_id=2102393322]
 anchors_preset = 1
 anchor_left = 1.0
 anchor_right = 1.0
 offset_left = -311.0
-offset_bottom = 166.0
+offset_bottom = 284.0
 grow_horizontal = 0
+theme_override_constants/separation = 20
 
-[node name="Generate" type="Button" parent="CanvasLayer/VBoxContainer"]
+[node name="GenerateButton" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=55201345]
 layout_mode = 2
 text = "This Button Changes
 Those Buttons!
 <------"
 
-[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer/VBoxContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer/VBoxContainer" unique_id=1173408104]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="CanvasLayer/VBoxContainer/HBoxContainer"]
+[node name="Label" type="Label" parent="CanvasLayer/VBoxContainer/HBoxContainer" unique_id=1771950546]
 layout_mode = 2
+size_flags_horizontal = 3
 text = "WARMER BUTTONS"
 
-[node name="Warm" type="HSlider" parent="CanvasLayer/VBoxContainer/HBoxContainer"]
+[node name="Warm" type="HSlider" parent="CanvasLayer/VBoxContainer/HBoxContainer" unique_id=1090048152]
 layout_mode = 2
 size_flags_horizontal = 3
+size_flags_vertical = 1
+size_flags_stretch_ratio = 0.9
 max_value = 1.0
 step = 0.01
 value = 0.5
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="CanvasLayer/VBoxContainer"]
+[node name="HBoxContainer2" type="HBoxContainer" parent="CanvasLayer/VBoxContainer" unique_id=175535350]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="CanvasLayer/VBoxContainer/HBoxContainer2"]
+[node name="Label" type="Label" parent="CanvasLayer/VBoxContainer/HBoxContainer2" unique_id=1043987527]
 layout_mode = 2
+size_flags_horizontal = 3
 text = "COOLER BUTTONS "
 
-[node name="Cool" type="HSlider" parent="CanvasLayer/VBoxContainer/HBoxContainer2"]
+[node name="Cool" type="HSlider" parent="CanvasLayer/VBoxContainer/HBoxContainer2" unique_id=569716858]
 layout_mode = 2
 size_flags_horizontal = 3
+size_flags_vertical = 1
+size_flags_stretch_ratio = 0.9
 max_value = 1.0
 step = 0.01
 value = 0.5
 
-[node name="HBoxContainer3" type="HBoxContainer" parent="CanvasLayer/VBoxContainer"]
+[node name="HBoxContainer4" type="HBoxContainer" parent="CanvasLayer/VBoxContainer" unique_id=2060120654]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="CanvasLayer/VBoxContainer/HBoxContainer3"]
+[node name="Label" type="Label" parent="CanvasLayer/VBoxContainer/HBoxContainer4" unique_id=38381981]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "SHARPER BUTTONS"
+
+[node name="Sharp" type="HSlider" parent="CanvasLayer/VBoxContainer/HBoxContainer4" unique_id=2029119853]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 1
+size_flags_stretch_ratio = 0.9
+max_value = 1.0
+step = 0.01
+value = 0.5
+
+[node name="HBoxContainer5" type="HBoxContainer" parent="CanvasLayer/VBoxContainer" unique_id=2141797101]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="CanvasLayer/VBoxContainer/HBoxContainer5" unique_id=1438556113]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "SMOOTHER BUTTONS "
+
+[node name="Smooth" type="HSlider" parent="CanvasLayer/VBoxContainer/HBoxContainer5" unique_id=168760551]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 1
+size_flags_stretch_ratio = 0.9
+max_value = 1.0
+step = 0.01
+value = 0.5
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="CanvasLayer/VBoxContainer" unique_id=906440503]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="CanvasLayer/VBoxContainer/HBoxContainer3" unique_id=2096353608]
 layout_mode = 2
 text = "SKEWED BUTTONS"
 
-[node name="Skew" type="CheckButton" parent="CanvasLayer/VBoxContainer/HBoxContainer3"]
+[node name="Skew" type="CheckButton" parent="CanvasLayer/VBoxContainer/HBoxContainer3" unique_id=2089893977]
 layout_mode = 2
 size_flags_horizontal = 3
 button_pressed = true
 
-[node name="Button" type="Button" parent="CanvasLayer/VBoxContainer"]
+[node name="SaveButton" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=245666796]
 layout_mode = 2
 focus_mode = 0
-text = "Export button theme"
+text = "Save button theme"
 
-[node name="Camera2D" type="Camera2D" parent="."]
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1223098755]
 anchor_mode = 0
 
-[connection signal="pressed" from="CanvasLayer/VBoxContainer/Generate" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="CanvasLayer/VBoxContainer/GenerateButton" to="." method="_on_generate_pressed"]
 [connection signal="value_changed" from="CanvasLayer/VBoxContainer/HBoxContainer/Warm" to="." method="_on_warm_value_changed"]
 [connection signal="value_changed" from="CanvasLayer/VBoxContainer/HBoxContainer2/Cool" to="." method="_on_cool_value_changed"]
+[connection signal="value_changed" from="CanvasLayer/VBoxContainer/HBoxContainer4/Sharp" to="." method="_on_sharp_value_changed"]
+[connection signal="value_changed" from="CanvasLayer/VBoxContainer/HBoxContainer5/Smooth" to="." method="_on_round_value_changed"]
 [connection signal="toggled" from="CanvasLayer/VBoxContainer/HBoxContainer3/Skew" to="." method="_on_skew_toggled"]
-[connection signal="pressed" from="CanvasLayer/VBoxContainer/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/VBoxContainer/SaveButton" to="." method="_on_button_pressed"]
